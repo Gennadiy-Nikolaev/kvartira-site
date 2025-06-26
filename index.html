@@ -1,4 +1,3 @@
-
 <head>
   <meta charset="UTF-8">
   <title>2-комнатная квартира в Николаеве</title>
@@ -25,8 +24,8 @@
     .kv-gallery img {
       width: auto;
       height: auto;
-      max-width: 100%;
-      max-height: 500px;
+      width: 100%;
+      height: auto;
       margin: 0 auto;
       display: block;
       border-radius: 8px;
@@ -75,7 +74,6 @@
     }
   </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-k5j6iq4VZyE0MHX2g7e9KaKlE+q9v4B7J6Mx2I5s9OaCPcXZjMfjMZ20RkB0MZKsWrpGQG5M5hx/ptb0zyxbtA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-$1
 <body>
   <div class="kv-container">
     <div class="kv-header">
@@ -124,10 +122,9 @@ $1
       <a href="tel:+380635074080"><i class="fas fa-phone"></i> 063 507 40 80</a>
       
     </div>
-  </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <script>
     $(document).ready(function(){
       $('.slider').slick({
@@ -135,6 +132,29 @@ $1
         arrows: true,
         infinite: true,
         speed: 500,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 1400,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1
+            }
+          }
+        ],
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
@@ -143,4 +163,3 @@ $1
     });
   </script>
 </body>
-
