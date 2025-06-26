@@ -1,9 +1,9 @@
 
-<!DOCTYPE html>
-<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <title>2-комнатная квартира в Николаеве</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
   <style>
     .kv-container {
       max-width: 960px;
@@ -19,10 +19,24 @@
       text-align: center;
       border-radius: 8px;
     }
+    .kv-gallery {
+      margin: 20px 0;
+    }
     .kv-gallery img {
+      width: auto;
+      height: auto;
       max-width: 100%;
-      margin: 10px 0;
+      max-height: 500px;
+      margin: 0 auto;
+      display: block;
       border-radius: 8px;
+      object-fit: contain;
+    }
+    .slick-slide {
+      padding: 0 10px;
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
     }
     .kv-features {
       background: white;
@@ -60,55 +74,73 @@
       margin: 10px 10px 0;
     }
   </style>
-</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-k5j6iq4VZyE0MHX2g7e9KaKlE+q9v4B7J6Mx2I5s9OaCPcXZjMfjMZ20RkB0MZKsWrpGQG5M5hx/ptb0zyxbtA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+$1
 <body>
+  <div class="kv-container">
+    <div class="kv-header">
+      <h1>2-комнатная квартира в центре Николаева</h1>
+      <p>Ул. Мариупольская, 13 — 52 м², 1 этаж, сталинка</p>
+    </div>
 
-<div class="kv-container">
-  <div class="kv-header">
-    <h1>2-комнатная квартира в центре Николаева</h1>
-    <p>Ул. Мариупольская, 13 — 52 м², 1 этаж, сталинка</p>
+    <div class="kv-gallery slider">
+      <img src="1.jpg" alt="Фото 1">
+      <img src="40.jpg" alt="Фото 40">
+      <img src="50.jpg" alt="Фото 50">
+      <img src="55.jpg" alt="Фото 55">
+      <img src="70.jpg" alt="Фото 70">
+      <img src="88.jpg" alt="Фото 88">
+      <img src="89.jpg" alt="Фото 89">
+      <img src="90.jpg" alt="Фото 90">
+    </div>
+
+    <div class="kv-features">
+      <h2>Описание</h2>
+      <ul>
+        <li>Общая площадь: 52 м²</li>
+        <li>Жилая площадь: 28 м²</li>
+        <li>Кухня: 7 м²</li>
+        <li>Комнат: 2 (гостиная и спальня)</li>
+        <li>Этаж: 1 из 4</li>
+        <li>Тип дома: кирпичный (сталинка), ж/б перекрытия</li>
+        <li>Высота потолков: 3 метра</li>
+        <li>Состояние: квартира с ремонтом, меблирована</li>
+        <li>Тихий зелёный двор, закрытая территория</li>
+        <li>50 метров до ул. Соборной</li>
+        <li>Идеально для жизни или аренды</li>
+      </ul>
+    </div>
+
+    <div class="kv-location">
+      <h2>Расположение</h2>
+      <p>Квартира находится в самом сердце Николаева. До ул. Соборной — 3 минуты пешком. Улица тихая, зелёная, с удобной парковкой. Рядом школы, магазины, остановки.</p>
+      <iframe src="https://maps.google.com/maps?q=улица%20Мариупольская%2013%2C%20Николаев&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0; border-radius: 8px;" allowfullscreen></iframe>
+    </div>
+
+    <div class="kv-cta">
+      <h2>Готовы к просмотру?</h2>
+      <p>Позвоните или напишите, чтобы договориться о просмотре!</p>
+      <a href="tel:+380958635035"><i class="fas fa-phone"></i> 095 863 50 35</a>
+      <a href="tel:+380635074080"><i class="fas fa-phone"></i> 063 507 40 80</a>
+      
+    </div>
   </div>
 
-  <div class="kv-gallery">
-    <img src="88.jpg" alt="Гостиная">
-    <img src="89.jpg" alt="Кухня">
-    <img src="90.jpg" alt="Спальня">
-    <img src="1.jpg" alt="Ванная комната">
-    <img src="40.jpg" alt="Коридор">
-    <img src="plan.jpg" alt="Планировка квартиры">
-  </div>
-
-  <div class="kv-features">
-    <h2>Описание</h2>
-    <ul>
-      <li>Общая площадь: 52 м²</li>
-      <li>Жилая площадь: 28 м²</li>
-      <li>Кухня: 7 м²</li>
-      <li>Комнат: 2 (гостиная и спальня)</li>
-      <li>Этаж: 1 из 4</li>
-      <li>Тип дома: кирпичный (сталинка), ж/б перекрытия</li>
-      <li>Высота потолков: 3 метра</li>
-      <li>Состояние: квартира с ремонтом, меблирована</li>
-      <li>Тихий зелёный двор, закрытая территория</li>
-      <li>50 метров до ул. Соборной</li>
-      <li>Идеально для жизни или аренды</li>
-    </ul>
-  </div>
-
-  <div class="kv-location">
-    <h2>Расположение</h2>
-    <p>Квартира находится в самом сердце Николаева. До ул. Соборной — 3 минуты пешком. Улица тихая, зелёная, с удобной парковкой. Рядом школы, магазины, остановки.</p>
-    <iframe src="https://maps.google.com/maps?q=улица%20Мариупольская%2013%2C%20Николаев&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0; border-radius: 8px;" allowfullscreen></iframe>
-  </div>
-
-  <div class="kv-cta">
-    <h2>Готовы к просмотру?</h2>
-    <p>Позвоните или напишите, чтобы договориться о просмотре!</p>
-    <a href="tel:+380xxxxxxxxx">Позвонить</a>
-    <a href="https://wa.me/380xxxxxxxxx" target="_blank">WhatsApp</a>
-    <a href="https://t.me/username" target="_blank">Telegram</a>
-  </div>
-</div>
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slider').slick({
+        dots: true,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000
+      });
+    });
+  </script>
 </body>
-</html>
+
